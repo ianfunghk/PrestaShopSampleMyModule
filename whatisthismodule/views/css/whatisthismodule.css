@@ -1,0 +1,17 @@
+.div_infos_hook{background-color:#ccffcc}
+.hook_module, .see_modules{font-weight:bold;color:red;background-color:white; padding:0}
+.infos_hook{font-weight:bold;background-color:#92FFF9}
+.infos_hook, .infos_tpl{color:red}
+.infos_tpl{background-color:yellow}
+.file_template{display:none; padding:0 5px}
+.infos_tpl:hover .file_template{display:inline;position:absolute;z-index:20000;background-color:white}
+.div_infos_tpl:hover {background-color:#CCF1FF;}
+.div_infos_tpl:hover .file_template{display:inline;position:absolute;z-index:20000;background-color:white}
+.div_infos_tpl:hover .infos_tpl{background-color:#CCF1FF;font-weight:bold}
+
+.hook_module, .display_modules{display:none}
+.div_infos_hook:hover .hook_module{display:inline!important}
+
+.file_css, .file_js{margin-left:15px;font-weight: normal;}
+
+.div_infos_tpl:hover{background-color:green}
