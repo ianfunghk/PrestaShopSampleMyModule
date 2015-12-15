@@ -39,6 +39,12 @@ class MyModule extends Module
 	public function hookLeftColumn($params)
 	{
 		global $smarty;
+		
+		/* Sample on how to load a product by ID */
+		$product = new Product(1,false,$this->context->language->id);
+		/* Prestashop debug function p(). You can use d() to stop loading futher */
+		p($product);
+		
 		return $this->display( __FILE__, 'mymodule.tpl');
 	}
 	
